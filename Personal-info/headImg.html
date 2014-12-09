@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OneLineCode-个人资料</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/info.css">
+	<script type="text/javascript" src="../js/info.js"></script>
+
+</head>
+<body>
+	<form class="headbody">
+		<h1>个人资料</h1>
+
+		<div class="content-left">
+
+			<ul class="list-group">
+				<li class="list-group-item">
+					<img id="list-group-item-portrait" src="../img/4.jpg" width="70" height="75" alt="求真相">
+				</li>
+				<li class="list-group-item"><a href="info.html" onfocus="this.blur();"><span class="badge">1</span>个人资料</a></li>
+				<li class="list-group-item"><a href="headImg.html" onfocus="this.blur();"><span class="badge">2</span>修改头像</a></li>
+				<li class="list-group-item"><a href="change_pwd.php" onfocus="this.blur();"><span class="badge">3</span>密码管理</a></li>
+			</ul>
+		</div>
+		<div class="content-right">
+			<div class="content-right-button">
+				<input class="btn btn-info" type="button" value="本地上传">
+				<a href="cemera.html"><input class="btn btn-primary" type="button" value="拍照上传"></a>
+				<h6>支持图片格式:jpg,png</h6>
+			</div>
+		</div>
+		<input class="file" type="file"  onchange="showPreview(this)" multiple accept="image/gif,image/png"/>  
+		<div class="bgimg" id="bgimg">
+			<img id="portrait" class="portrait" src="" style="display:none;">  
+		</div>
+		<div class="line"></div>
+		<input type="submit" class="btn btn-success" value="保存">
+	</form>
+
+	
+
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OneLineCode-个人资料</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/info.css">
+	<script type="text/javascript" src="../js/info.js"></script>
+</head>
+<body>
+	<div class="infobody">
+	<h1>个人资料</h1>
+	<div class="content-left">
+		<ul class="list-group">
+			<li class="list-group-item">
+				<img id="list-group-item-portrait" src="../img/4.jpg"  alt="求真相">
+			</li>
+			<li class="list-group-item"><a href="info.html" onfocus="this.blur();"><span class="badge">1</span>个人资料</a></li>
+			<li class="list-group-item"><a href="headImg.html" onfocus="this.blur();"><span class="badge">2</span>修改头像</a></li>
+			<li class="list-group-item"><a href="change_pwd.php" onfocus="this.blur();"><span class="badge">3</span>密码管理</a></li>
+		</ul>
+	</div>
+	<form  name="form1" class="form1">
+		<div class="headimg-left">当前头像:<a href="headImg.html"><img src="../img/4.jpg" alt="img" width="130" height="100"></a></div>
+		<p>昵称:</p>
+		<p><input type="text" class="form-control"></p>
+		<p>真实姓名:</p>
+		<p><input type="text" class="form-control"></p>
+		<p><span>性别:</span>
+		<input class="aling-left" type="radio" name="sex" value="male" >男
+		<input class="aling-left" type="radio" name="sex" value="female">女</p>
+		<p><span>出生日期:</span>
+		<select name=YYYY onchange="YYYYMM(this.value)">  
+				<option value="">年</option>  
+				</select>  
+				<select name=MM onchange="MMDD(this.value)">  
+				<option value="">月</option>  
+				</select>  
+				<select name=DD>  
+				<option value="">日</option> 
+		</select></p>
+		<p>所在地:</p>
+		<p><input type="text" class="form-control"></p>
+		<p>出生地</p>
+		<p><input type="text" class="form-control"></p>
+		<input type="button" class="btn btn-success" value="提交">
+	</form>
+	</div>
+</body>
+</html>

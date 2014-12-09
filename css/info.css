@@ -1,0 +1,133 @@
+*{margin: 0;padding: 0;}
+body{
+	background-color:#DED4BC;
+	min-width: 600px;
+}
+
+.infobody,.headbody,.safetybody{
+	width: 960px;
+	height: 760px;;
+	margin: 0 auto;
+	background-color: #fff;
+}
+h1{
+	text-align: center;
+}
+.info-header{
+	margin-bottom: 25px !important;
+}
+.info-header .actived{
+	color:#A3A3A3;
+}
+.info-header li{
+	float: left;margin-right: 15px;list-style: none;
+}
+.info-header li a:hover{
+	text-decoration: none;	
+	cursor:pointer;
+}
+
+.headimg-left{
+	margin-left: 
+	float: left;
+}
+.form1{
+	padding-left: 100px;
+}
+.form1,.headimg,.info-header{
+	width: 80%;
+	margin: 0 auto;
+}
+.form1 .form-control{
+	width: 40%;
+}
+.form1 span{
+	display: inline-block;
+	width: 100px;
+}
+
+/*头像开始*/
+.headbody{
+	position: relative;
+}
+h6{
+	color:#AFAFAF;
+	margin-top: 0;
+}
+.content-left{
+	width: 150px;height:625px;background-color: #F5F5F5;float: left;
+}
+.content-left .content-left-img{
+	width: 130px;
+	height: 100px;
+}
+.content-right .content-right-button{
+	width: 150px ;
+}
+.content-right-button{
+	margin-left: 230px;width: 320px !important;
+}
+.content-right-button .btn-info,.content-right-button .btn-primary{
+	margin-top: -50px;
+}
+.file{
+	width: 149px;height: 34px;
+	position: absolute;
+	left: 380px;top: 101px; 
+	opacity:0;
+}
+.file:hover{
+	cursor:pointer;
+}
+.bgimg{
+	width: 640px;height: 480px;
+	margin-top: 130px;
+	margin-left: 200px;
+	background:#DED4BC;
+	border: 1px dotted black;
+}
+#list-group-item-portrait{
+	width: 130px;
+	height: 100px;
+}
+#portrait{
+	width: 640px;height: 480px;
+	position: absolute;
+}
+.line{
+	width: 2px;height: 480px;
+	background: #D6D197;
+	margin-left: 890px;
+	margin-top: -480px;
+}
+.headbody .btn.btn-info,.headbody .btn.btn-primary{
+	width: 149px;
+}
+.headbody .btn.btn-success{
+	width: 148px;
+	margin-left: 542px;margin-top: 20px;
+}
+.inline{
+	float: left;
+}
+.sexyButton{
+	margin-left: 586px;
+}
+/*头像照片结束*/
+
+/*信息安全设置开始*/
+.content-right{
+	float: left;
+	width: 340px;
+	margin-top: 82px;
+}
+.content-right .form-control{
+	margin: 10px 0;
+}
+
+.content-right .btn.btn-success{
+	width: 90px;
+}
+/*信息安全设置结束*/
+
+.clearfix{overflow:hidden;_zoom:1;}
